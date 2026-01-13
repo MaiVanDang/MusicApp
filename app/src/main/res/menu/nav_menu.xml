@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_music_note_24"
+            android:title="@string/home_page" />
+        <item
+            android:id="@+id/nav_offline"
+            android:icon="@drawable/outline_download_done_24"
+            android:title="@string/nh_c_t_i" />
+    </group>
+
+    <item android:title="@string/t_i_kho_n">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_arrow_back"
+                android:title="@string/ng_xu_t" />
+        </menu>
+    </item>
+</menu>

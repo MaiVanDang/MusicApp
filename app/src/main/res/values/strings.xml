@@ -1,0 +1,45 @@
+<resources>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up_to_get_started">Sign up to get started</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_agree_to_the_terms_and_conditions">I agree to the Terms and Conditions</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="app_name">MusicDM</string>
+
+    <!-- Home Activity -->
+    <string name="get_started">Get Started</string>
+    <string name="explorer_artist">Explorer Artist</string>
+    <string name="list_music">List music</string>
+
+    <!-- Login Activity -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account? </string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+
+    <!-- Main Activity -->
+    <string name="logout">Logout</string>
+    <string name="user_avatar">User Avatar</string>
+    <string name="download">Download</string>
+
+    <!-- Player Activity -->
+    <string name="back">Back</string>
+    <string name="favorite">Favorite</string>
+    <string name="album_art">Album Art</string>
+    <string name="_0_00">0:00</string>
+    <string name="repeat">Repeat</string>
+    <string name="previous">Previous</string>
+    <string name="play">Play</string>
+    <string name="next">Next</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="t_i_kho_n">Tài khoản</string>
+    <string name="ng_xu_t">Đăng xuất</string>
+    <string name="nh_c_t_i">Nhạc đã tải</string>
+    <string name="home_page">Trang chủ</string>
+</resources>

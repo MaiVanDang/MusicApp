@@ -1,0 +1,29 @@
+package com.hust.musicdm.database
+
+import android.content.Context
+import androidx.room.Database
+import androidx.room.Room
+import androidx.room.RoomDatabase
+
+@Database(entities = [SongEntity::class], version = 1, exportSchema = false)
+abstract class SongDatabase : RoomDatabase() {
+
+    abstract fun songDao(): SongDao
+
+    companion object {
+        @Volatile
+        private var INSTANCE: SongDatabase? = null
+
+        fun getDatabase(context: Context): SongDatabase {
+            return INSTANCE ?: synchronized(this) {
+                val instance = Room.databaseBuilder(
+                    context.applicationContext,
+                    SongDatabase::class.java,
+                    "music_database"
+                ).build()
+                INSTANCE = instance
+                instance
+            }
+        }
+    }
+}
